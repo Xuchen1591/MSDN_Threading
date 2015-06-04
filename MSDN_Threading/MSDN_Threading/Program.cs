@@ -39,6 +39,7 @@ namespace MSDN_Threading
         static void Main(string[] args)
         {
             //lec 1
+            /*
             autoEvent = new AutoResetEvent(false);
 
             Console.WriteLine("main starting worker thread...");
@@ -50,12 +51,21 @@ namespace MSDN_Threading
 
             Console.WriteLine("main signaling worker thread...");
             autoEvent.Set();
+             */
 
 
             //lec2
             Worker worker = new Worker();
             Thread workerThread = new Thread(worker.doSomeThing);
             workerThread.Start();
+
+            while (!workerThread.IsAlive) ;
+
+            Thread.Sleep(1);
+
+            worker.requestStop();
+            workerThread.Join();
+            Console.WriteLine("main: work threading terminated...");
         }
     }
 }
