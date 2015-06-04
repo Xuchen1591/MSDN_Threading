@@ -1,0 +1,5 @@
+F:\Git\MSDN_Threading\MSDN_Threading\MSDN_Threading\bin\Debug\MSDN_Threading.exe
+F:\Git\MSDN_Threading\MSDN_Threading\MSDN_Threading\bin\Debug\MSDN_Threading.pdb
+F:\Git\MSDN_Threading\MSDN_Threading\MSDN_Threading\obj\Debug\MSDN_Threading.csprojResolveAssemblyReference.cache
+F:\Git\MSDN_Threading\MSDN_Threading\MSDN_Threading\obj\Debug\MSDN_Threading.exe
+F:\Git\MSDN_Threading\MSDN_Threading\MSDN_Threading\obj\Debug\MSDN_Threading.pdb
